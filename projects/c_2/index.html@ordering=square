@@ -1,0 +1,345 @@
+<!DOCTYPE html>
+<html dir="ltr" lang="ru">
+<head>
+	<meta charset="utf-8">
+	<title>Архитектурно-сторительная компания Дом &mdash; Каталог</title>
+	<link rel="stylesheet" type="text/css" href="../../static/styles/style.css" media="all" />
+	<!-- <link rel="stylesheet" type="text/css" href="/static/scripts/pace-0.4.10/themes/pace-theme-minimal.css" media="all" /> -->
+	<!--[if IE 8]><link rel="stylesheet" type="text/css" href="/static/styles/ie-8.css" media="all" /><![endif]-->
+	<!--[if IE 8]>
+		<script type="text/javascript" src="/static//scripts/jquery-1-10-2-min.js"></script>
+	<![endif]-->
+	<!--[if gte IE 9]><!-->
+		<script type="text/javascript" src="../../static/scripts/jquery-2-0-3-min.js"></script>
+	<!--<![endif]-->
+	<script type="text/javascript" src="../../static/scripts/jquery-ui-1.10.3.custom.min.js"></script>
+	
+	<script type="text/javascript" src="../../static/scripts/common.js"></script>
+	
+	<script src="../../static/scripts/catalogue.js"></script>
+
+
+</head>
+<body>
+<div class="wrapper">
+	<div style="position:absolute; top: -500px; left: -999999px">
+		<img src="../../static/images/preloader_index_1.png" alt="">
+	</div>
+	<div class="header">
+		<div class="header_container">
+			<div class="logo_container">
+				<a href="../../index.html">
+					<img src="../../static/images/logo.png">
+				</a>
+			</div>
+			<nav class="navigation_items_container">
+				<ul class="navigation_items">
+					<li class="navigation_item">
+						<a href="../../about/index.html" >
+							О компании
+						</a>
+					</li><!--
+				 --><li class="navigation_item">
+						<a href="../index.html">
+							Каталог домов
+						</a>
+						<ul class="navigation_item_submenu">
+							<li class="navigation_submenu_item">
+								<a href="../c_1/index.html">
+									Элитные деревянные дома
+								</a>
+							</li>
+							<li class="navigation_submenu_item">
+								<a href="index.html">
+									Дома из профилированного бруса
+								</a>
+							</li>
+							<li class="navigation_submenu_item">
+								<a href="../c_3/index.html">
+									Каркасные дома
+								</a>
+							</li>
+							<li class="navigation_submenu_item">
+								<a href="../c_4/index.html">
+									Брусовые дома
+								</a>
+							</li>
+						</ul>
+					</li><!--
+				 --><li class="navigation_item">
+						<a href="../../services/index.html">
+							Услуги
+						</a>
+					</li><!--
+				 --><li class="navigation_item -unactive">
+						<a href="index.html@ordering=square#">
+							Галерея
+						</a>
+					</li><!--
+				 --><li class="navigation_item ie-8_last-child">
+						<a href="../../contacts/index.html">
+							Контакты
+						</a>
+					</li>
+				</ul>
+			</nav>
+		</div>
+	</div >
+	
+		<div class="page_preloader_wrapper">
+			<div class="page_preloader"></div>
+		</div>
+	
+
+
+	
+		<div class="js-loaded_wrapper content-wrapper">
+	
+			
+	<div class="page_wrapper catalogue">
+		<h1 class="page_header">
+			Готовые проекты
+		</h1>
+		<div class="catalogue_categories">
+    <ul class="index_house_types_delimiters">
+        <li></li><li></li><li></li>
+    </ul>
+    <ul class="index_house_types">
+        <li class="index_house_type js_sprite_animated">
+            <p class="index_house_type-name">
+                <a href="../c_1/index.html" class="index_house_type-name_link js_sprite_hovered_link">
+                    Элитные<br>деревянные<br>дома
+                </a>
+            </p>
+        </li><!--
+     --><li class="index_house_type js_sprite_animated">
+            <p class="index_house_type-name">
+                <a href="index.html" class="index_house_type-name_link js_sprite_hovered_link">
+                    Дома из<br>профилированного<br>бруса
+                </a>
+            </p>
+        </li><!--
+     --><li class="index_house_type js_sprite_animated">
+            <p class="index_house_type-name">
+                <a href="../c_3/index.html" class="index_house_type-name_link js_sprite_hovered_link">
+                    Каркасные<br>дома
+                </a>
+            </p>
+        </li><!--
+     --><li class="index_house_type js_sprite_animated">
+            <p class="index_house_type-name">
+                <a href="index.html@ordering=square#" class="index_house_type-name_link with-padding js_sprite_hovered_link">
+                    Брусовые<br>дома
+                </a>
+            </p>
+        </li>
+    </ul>
+</div>
+
+		<ul class="catalogue_ordering_controls">
+			<li class="catalogue_ordering_control">
+				<a href="index.html@status=popular">
+					<div class="catalogue_ordering_control_icon popular"></div>
+					<div class="catalogue_ordering_control_hint">
+						<p>Популярные&nbsp;проекты</p>
+					</div>
+				</a>
+			</li>
+			<li class="catalogue_ordering_control">
+				<a href="index.html@ordering=square">
+					<div class="catalogue_ordering_control_icon increase"></div>
+					<div class="catalogue_ordering_control_hint">
+						<p>Упорядочить&nbsp;по&nbsp;возрастанию</p>
+					</div>
+				</a>
+			</li>
+			<li class="catalogue_ordering_control">
+				<a href="index.html@ordering=-square">
+					<div class="catalogue_ordering_control_icon decrease"></div>
+					<div class="catalogue_ordering_control_hint">
+						<p>Упорядочить&nbsp;по&nbsp;убыванию</p>
+					</div>
+				</a>
+			</li>
+			<!-- <li class="catalogue_ordering_control">
+				<div class="catalogue_ordering_control_icon top"></div>
+				{# <div class="catalogue_ordering_control_hint">
+					<p>Наверх</p>
+				</div> #}
+			</li> -->
+		</ul>
+		<ul class='catalogue_projects'>
+			
+				
+					<li class="catalogue_project 
+					
+					">
+						<div class="catalogue_project_hover_bg"></div>
+						<div class="catalogue_project_image-container">
+							<a href="../6/index.html" class="catalogue_project_image_link">
+								<img src="../../media/images/projects/shaped_beam/list_images/10.0x10.5_A.png" class="catalogue_project_image">
+								<div class="catalogue_project_hover_details"></div>
+							</a>
+							<p class="catalogue_project_size">10.0 x 10.5 A</p>
+							
+								<div class="catalogue_project_is-popular"></div>
+							
+						</div>
+					</li>
+				
+			
+				
+					<li class="catalogue_project 
+					
+						center
+					
+					">
+						<div class="catalogue_project_hover_bg"></div>
+						<div class="catalogue_project_image-container">
+							<a href="../7/index.html" class="catalogue_project_image_link">
+								<img src="../../media/images/projects/shaped_beam/list_images/7.5x8.5.png" class="catalogue_project_image">
+								<div class="catalogue_project_hover_details"></div>
+							</a>
+							<p class="catalogue_project_size">7.5 x 8.5</p>
+							
+						</div>
+					</li>
+				
+			
+				
+					<li class="catalogue_project 
+					
+					">
+						<div class="catalogue_project_hover_bg"></div>
+						<div class="catalogue_project_image-container">
+							<a href="../8/index.html" class="catalogue_project_image_link">
+								<img src="../../media/images/projects/shaped_beam/list_images/9.0x9.0.png" class="catalogue_project_image">
+								<div class="catalogue_project_hover_details"></div>
+							</a>
+							<p class="catalogue_project_size">9.0 x 9.0</p>
+							
+						</div>
+					</li>
+				
+			
+				
+					<li class="catalogue_project 
+					
+					">
+						<div class="catalogue_project_hover_bg"></div>
+						<div class="catalogue_project_image-container">
+							<a href="../9/index.html" class="catalogue_project_image_link">
+								<img src="../../media/images/projects/shaped_beam/list_images/8.0x8.0.png" class="catalogue_project_image">
+								<div class="catalogue_project_hover_details"></div>
+							</a>
+							<p class="catalogue_project_size">8.0 x 8.0</p>
+							
+						</div>
+					</li>
+				
+			
+				
+					<li class="catalogue_project 
+					
+						center
+					
+					">
+						<div class="catalogue_project_hover_bg"></div>
+						<div class="catalogue_project_image-container">
+							<a href="../10/index.html" class="catalogue_project_image_link">
+								<img src="../../media/images/projects/shaped_beam/list_images/9.0x9.0_A.png" class="catalogue_project_image">
+								<div class="catalogue_project_hover_details"></div>
+							</a>
+							<p class="catalogue_project_size">9.0 x 9.0 A</p>
+							
+								<div class="catalogue_project_is-popular"></div>
+							
+						</div>
+					</li>
+				
+			
+				
+					<li class="catalogue_project 
+					
+					">
+						<div class="catalogue_project_hover_bg"></div>
+						<div class="catalogue_project_image-container">
+							<a href="../11/index.html" class="catalogue_project_image_link">
+								<img src="../../media/images/projects/shaped_beam/list_images/8.0x8.5.png" class="catalogue_project_image">
+								<div class="catalogue_project_hover_details"></div>
+							</a>
+							<p class="catalogue_project_size">8.0 x 8.5</p>
+							
+						</div>
+					</li>
+				
+			
+				
+					
+						<li class="catalogue_project"></li>
+						<li class="catalogue_project 
+							
+								center
+							
+							">
+							<div class="catalogue_project_hover_bg"></div>
+							<div class="catalogue_project_image-container">
+								<a href="../12/index.html" class="catalogue_project_image_link">
+									<img src="../../media/images/projects/shaped_beam/list_images/8.5x8.0.png" class="catalogue_project_image">
+									<div class="catalogue_project_hover_details"></div>
+								</a>
+								<p class="catalogue_project_size">8.5 x 8.0</p>
+								
+							</div>
+						</li>
+						<li class="catalogue_project"></li>
+					
+				
+			
+		</ul>
+	</div>
+
+	
+		</div>
+	
+	
+	<div class="footer_container">
+    <div class="footer">
+        <div class="footer_contacts cell">
+            <p class="footer_contacts_copy">&copy; 2012 Компания ДОМ</p>
+            <table class="footer_contacts_items">
+                <tr>
+                    <td class="footer_contacts_items_key">e-mail:</td>
+                    <td class="footer_contacts_items_value"><a href="mailto:companydom@mail.ru">companydom@mail.ru</a></td>
+                </tr>
+                <tr>
+                    <td class="footer_contacts_items_key">тел.:</td>
+                    <td class="footer_contacts_items_value">
+                        <span class="bold block">+7 (495) 771 14 38</span>
+                        <span class="bold block">+7 (495) 518 56 28</span>
+                    </td>
+                </tr>
+            </table>
+        </div>
+        <div class="footer_menu cell">
+            <ul class="footer_menu_items">
+                <li class="footer_menu_item"><a href="index.html@ordering=square">О компани</a></li>
+                <li class="footer_menu_item"><a href="index.html@ordering=square">Контакты</a></li>
+                <li class="footer_menu_item"><a href="../../services/index.html">Услуги</a></li>
+            </ul><!-- 
+         --><ul class="footer_menu_items">
+                <li class="footer_menu_item"><a href="../index.html">Каталог домов</a></li>
+                <li class="footer_menu_item"><a href="../../contacts/index.html">Галерея проектов</a></li>
+            </ul>
+        </div>
+        <div class="footer_logo-redis_container cell">
+            <a href="http://red-is.ru" target="_blank" class="footer_redis-link">
+                <img src="../../static/images/logo-redis.png" alt="redis logo">
+            </a>
+        </div>
+    </div>
+</div>
+
+
+</div>
+</body>
