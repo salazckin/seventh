@@ -7,10 +7,10 @@ function is_animated (collection) {
 }
 
 var images = [
-	'/static/images/elite_house_sprite.png',
-	'/static/images/shaped_beam_house_sprite.png',
-	'/static/images/beam_house_sprite.png',
-	'/static/images/panel_frame_house_sprite.png'
+	'https://salazckin.github.io/seventh/static/images/elite_house_sprite.png',
+	'https://salazckin.github.io/seventh/static/images/shaped_beam_house_sprite.png',
+	'https://salazckin.github.io/seventh/static/images/beam_house_sprite.png',
+	'https://salazckin.github.io/seventh/static/images/panel_frame_house_sprite.png'
 ]
 
 $(document).ready(function() {
@@ -24,7 +24,7 @@ $(document).ready(function() {
 		// 'slideDuration': 75,
 		'cycleTimes': 1,
 		'reverse': false,
-		'spriteSrc': '/static/images/preloader_index_1.png'
+		'spriteSrc': 'https://salazckin.github.io/seventh/static/images/preloader_index_1.png'
 	}
 	var preloader = $('.js-preloader-sprite');
 	// var preloaderImage = '/static/images/beam_house_sprite.png';

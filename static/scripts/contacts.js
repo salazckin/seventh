@@ -26,13 +26,13 @@ function mapInitialize() {
 	var marker_1 = new google.maps.Marker({
 		position: officeCoords,
 		map: map_1,
-		icon: "http://domcom.redis.tv/static/images/map_marker.png",
+		icon: "salazckin.github.io/seventh/static/images/map_marker.png",
 	});
 
 	var marker_2 = new google.maps.Marker({
 		position: showroomCoords,
 		map: map_2,
-		icon: "http://domcom.redis.tv/static/images/map_marker.png",
+		icon: "https://salazckin.github.io/seventh/static/images/map_marker.png",
 	});
 }
 

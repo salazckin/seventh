@@ -3,7 +3,7 @@ currentProject = null;
 
 function getProject_(projectId, callback) {
     $.get(
-        '/dom/projects/'+ projectId +'/index.json'
+        'seventh/projects/'+ projectId +'/index.json'
     ).success(function(data) {
         callback(data);
     });
@@ -14,7 +14,7 @@ function setCursor(e) {
     e.css({
         'cursor': 'pointer',
         'cursor': 'zoom-in',
-        'cursor': 'url("/static/images/plus_hover.png") 27 23, pointer'
+        'cursor': 'url("https://salazckin.github.io/seventh/static/images/plus_hover.png") 27 23, pointer'
     });
 }
 
@@ -184,7 +184,7 @@ $(document).ready(function() {
             // images.push('/' + imgList[i]['image_small']);
             images.push('http://domcom.redis.tv/' + imgList[i]['image_small']);
             // images.push('/' + imgList[i]['image_big']);
-            images.push('/dom/' + imgList[i]['thumbnail']);
+            images.push('/seventh/' + imgList[i]['thumbnail']);
         }
         for (var i = 0; i < images.length; i++) {
             var img  = new Image();
@@ -220,7 +220,7 @@ $(document).ready(function() {
             'width': '13%'
         }, 4000, 'linear');
         $.get(
-            '/dom/projects/'+ project_id +'/index.json'
+            '/seventh/projects/'+ project_id +'/index.json'
         ).success(function(data) {
             // projectList.push(data);
             projectList[0] = data;
