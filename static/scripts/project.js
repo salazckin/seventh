@@ -220,7 +220,7 @@ $(document).ready(function() {
             'width': '13%'
         }, 4000, 'linear');
         $.get(
-            '/seventh/projects/'+ project_id +'/index.json'
+            ''+ project_id +'/index.json'
         ).success(function(data) {
             // projectList.push(data);
             projectList[0] = data;
