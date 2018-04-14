@@ -3,7 +3,7 @@ currentProject = null;
 
 function getProject_(projectId, callback) {
     $.get(
-        'seventh/projects/'+ projectId +'/index.json'
+        ''+ projectId +'/index.json'
     ).success(function(data) {
         callback(data);
     });
