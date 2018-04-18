@@ -1,6 +1,6 @@
 function mapInitialize() {
-	var officeCoords = new google.maps.LatLng(55.655194, 37.650152);
-	var showroomCoords = new google.maps.LatLng(55.573960,37.599534);
+	var officeCoords = new google.maps.LatLng(55.7786344, 37.6232152);
+	var showroomCoords = new google.maps.LatLng(55.7786344,37.6232152);
 	var mapOptions = {
 		zoom: 17,
 		scrollwheel: false,
@@ -26,7 +26,7 @@ function mapInitialize() {
 	var marker_1 = new google.maps.Marker({
 		position: officeCoords,
 		map: map_1,
-		icon: "salazckin.github.io/seventh/static/images/map_marker.png",
+		icon: "https://salazckin.github.io/seventh/static/images/map_marker.png",
 	});
 
 	var marker_2 = new google.maps.Marker({
