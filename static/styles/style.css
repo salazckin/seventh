@@ -1996,14 +1996,14 @@ body {
 
 .contacts_row-wrapper {
 	display: table;
-	margin-top: 15px;
+	/*margin-top: 15px;*/
 	width: 100%;
 	min-width: 1200px;
 	table-layout: fixed;
 }
 
 .contacts_row-wrapper {
-	margin-bottom: 15px;
+	/*margin-bottom: 15px;*/
 }
 
 .contacts_row_column {
